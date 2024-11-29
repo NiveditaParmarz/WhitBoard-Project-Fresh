@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+.tool-img{
+    height : 3rem;
+}
+.toolbar-options{
+    display: flex;
+    gap: 1rem;
+    /* border: solid 2px black; */
+    /* height: 70px; */
+   
+    
+}
+.toolbar{
+    display: flex;
+    justify-content: center;
+    gap:2rem; /* gap between the cross and the whole toolbar (toolbar as one unit)*/
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+} 
+
+.sticky{
+    height: 10rem;
+    width : 8rem;
+    position: absolute; /*By this,we are able to draw behind the sticky note as well*/
+    left: 40vw; /*Whenever we decrease left the sticky moves to the left of the page and when increase it moves to the right side of the page*/
+    top: 40vh;/*When we increase top, we send the sticky downwards, when decrease, we send sticky upwards*/
+
+}
+
+.nav{
+    border: 1px solid black;
+    border-radius: 5%;
+    height: 20%; /*navbar is taking 20% of the sticky's height*/
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 1rem; */
+    
+}
+
+.text-area{
+    height: 80%; /*80% of the sticky's height is text area*/
+    width: 100%;
+}
+
+.input-tag{
+    display: none;
+}
+
+.upload-img{
+    height: 80%; /*80% of the sticky's height is image area*/
+    width: 100%;
+}
+
+#myPointer {
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    background-color: rgb(255, 209, 239);
+    border-radius: 50%;
+    border: solid 2px black;
+  }
+
+/* #pencil{
+    border-radius: 50%;
+    background-color: pink;
+}
+#pencil:hover{
+    background-color: aqua;
+} */
+
+.tool:hover{
+    background-color: rgba(211, 211, 211, 0.628);
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
