@@ -1,6 +1,6 @@
 # Real-Time Whiteboard Application 📋 🎨 ✏️ 💡 ✂️ 🖥️
 
-# Project Features 🛠
+*Project Features* 🛠
 
 **Toolbar with Multiple Tools**:
 
