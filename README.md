@@ -6,10 +6,20 @@
 
 * Pencil: Draws on the canvas with customizable color and thickness.
 * Eraser: Erases drawn content with a larger line width.
+
+  
 *Sticky Notes: Allows users to create movable, resizable sticky notes.
+
+
 *Upload: Enables uploading images onto the canvas.
+
+
 *Download: Saves the current canvas as an image.
+
+
 *Undo/Redo: Implements a basic undo/redo stack for drawing actions.
+
+
 *Clear All: Clears the entire canvas.
 
 **Canvas Setup:**
